@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fiscaluno</string>
+    <string name="login_facebook">Login</string>
+    <string name="facebook_app_id">Login</string>
+</resources>
