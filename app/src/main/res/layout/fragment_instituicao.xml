@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_activity">
+
+    <ImageView
+        android:id="@+id/iv_instituicao_icone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_instituicao_nome"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_launcher"
+        tools:ignore="ContentDescription" />
+
+    <AutoCompleteTextView
+        android:id="@+id/et_instituicao_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="@string/instituicao_ensino" />
+
+    <Button
+        android:id="@+id/bn_instituicao_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:onClick="avaliacaoFragment"
+        android:text="@string/continuar"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

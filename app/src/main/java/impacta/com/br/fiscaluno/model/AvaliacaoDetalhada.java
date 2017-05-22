@@ -10,7 +10,6 @@ public class AvaliacaoDetalhada {
     private Instituicao instituicao;
     private Double avaliacao;
     private String data;
-    //Verificar o tipo da categoria/curso
     private String categoria;
     private String curso;
     private Integer idAluno;

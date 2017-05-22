@@ -11,7 +11,6 @@ public class AvaliacaoGeral {
     private Double nota;
     private Aluno nome;
     private Instituicao instituicao;
-    //Verificar com o wilder o tipo
     private String curso;
     private String data;
 

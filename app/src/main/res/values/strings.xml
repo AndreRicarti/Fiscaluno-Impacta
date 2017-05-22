@@ -2,4 +2,7 @@
     <string name="app_name">Fiscaluno</string>
     <string name="login_facebook">Login</string>
     <string name="facebook_app_id">Login</string>
+
+    <string name="instituicao_ensino">Instituição</string>
+    <string name="continuar">Continuar</string>
 </resources>

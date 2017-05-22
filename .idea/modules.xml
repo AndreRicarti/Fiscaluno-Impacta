@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Fiscaluno.iml" filepath="$PROJECT_DIR$/Fiscaluno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fiscaluno-Impacta.iml" filepath="$PROJECT_DIR$/Fiscaluno-Impacta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_activity">
+
+    <TextView
+        android:id="@+id/tv_avaliacao_instituicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avaliação"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/tv_avaliacao_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_avaliacao_instituicao"
+        android:layout_marginTop="10dp"
+        android:text="Teste de informação"
+        android:textAlignment="center" />
+
+    <RatingBar
+        android:id="@+id/rb_avaliacao_nota"
+        style="@style/RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:onClick="positicoFragment"
+        android:text="@string/continuar"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

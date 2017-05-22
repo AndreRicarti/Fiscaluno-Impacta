@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_activity">
+
+    <TextView
+        android:id="@+id/tv_negativo_instituicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Negativo"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/tv_negativo_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_negativo_instituicao"
+        android:layout_marginTop="10dp"
+        android:text="Teste de informação"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/et_negativo_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittextbox"
+        android:gravity="left"
+        android:inputType="textMultiLine"
+        android:lines="4" />
+
+    <Button
+        android:id="@+id/bn_negativo_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:text="@string/continuar"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

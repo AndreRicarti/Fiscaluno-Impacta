@@ -3,10 +3,9 @@ package impacta.com.br.fiscaluno.presenter;
 import android.content.Context;
 
 /**
- * Created by a.ricarti on 16/05/2017.
+ * Created by Admin on 21/05/2017.
  */
 
-public interface ILoginPresenter {
-    void actionButton();
+public interface IQuestionarioPresenter {
     void setContext(Context context);
 }
